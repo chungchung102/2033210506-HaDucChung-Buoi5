@@ -11,7 +11,7 @@ namespace _2033210506_HaDucChung_Buoi5
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmBaiTap2());
+            Application.Run(new frmBaiTap1());
         }
     }
 }

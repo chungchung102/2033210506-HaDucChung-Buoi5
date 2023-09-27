@@ -99,6 +99,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
+          
             // 
             // button2
             // 
