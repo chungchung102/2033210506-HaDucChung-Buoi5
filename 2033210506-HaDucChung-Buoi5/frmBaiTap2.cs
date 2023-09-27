@@ -48,7 +48,5 @@ namespace _2033210506_HaDucChung_Buoi5
             else
                 this.errorProvider1.Clear();
         }
-
-        
     }
 }

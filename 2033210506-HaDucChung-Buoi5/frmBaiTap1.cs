@@ -18,6 +18,9 @@ namespace _2033210506_HaDucChung_Buoi5
             errorProvider1 = new ErrorProvider();
             InitializeComponent();
         }
+
+        
+
         private void maskedTextBox1_MaskInputRejected(object sender, EventArgs e)
         {
             Control ctr=(Control)sender;
@@ -57,6 +60,9 @@ namespace _2033210506_HaDucChung_Buoi5
         {
             this.Close();
         }
+
+       
+
         
     }
 }
