@@ -68,12 +68,44 @@ namespace _2033210506_HaDucChung_Buoi5
                 MessageBox.Show("du lieu ko duoc de trong", "thong bao");
             else
             {
-                ketQua=double.Parse(textBox1.Text)+double.Parse(textBox2.Text);
+                ketQua = double.Parse(textBox1.Text) + double.Parse(textBox2.Text);
                 textBox3.Text = ketQua.ToString();
             }
-
         }
 
-       
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+                MessageBox.Show("du lieu ko duoc de trong", "thong bao");
+            else
+            {
+                ketQua = double.Parse(textBox1.Text) - double.Parse(textBox2.Text);
+                textBox3.Text = ketQua.ToString();
+            }
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+                MessageBox.Show("du lieu ko duoc de trong", "thong bao");
+            else
+            {
+                ketQua = double.Parse(textBox1.Text) * double.Parse(textBox2.Text);
+                textBox3.Text = ketQua.ToString();
+            }
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "" || textBox2.Text == "")
+                MessageBox.Show("du lieu ko duoc de trong", "thong bao");
+            else
+            {
+                ketQua = double.Parse(textBox1.Text) / double.Parse(textBox2.Text);
+                textBox3.Text = ketQua.ToString();
+            }
+        }
     }
+
 }
+

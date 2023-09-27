@@ -89,7 +89,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "-";
             this.radioButton2.UseVisualStyleBackColor = true;
-            
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -101,7 +101,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "x";
             this.radioButton3.UseVisualStyleBackColor = true;
-           
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // radioButton4
             // 
@@ -113,7 +113,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "/";
             this.radioButton4.UseVisualStyleBackColor = true;
-           
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // textBox1
             // 
